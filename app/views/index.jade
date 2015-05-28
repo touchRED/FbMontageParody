@@ -1,0 +1,22 @@
+doctype html
+html
+head
+	link(rel="stylesheet", href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css")
+	link(rel="stylesheet" href="../main.css")
+
+body
+	.container
+		ul(class = "nav nav-pills")
+			li(role="option" class="active") 
+				a(href="#") Home
+			li(role="option") 
+				a(href="#") Stuff
+			li(role="option") 
+				a(href="#") About
+		.jumbotron
+			h1 Test
+			p A Bootstrap experiment
+			a(href="/auth/facebook") Login with Facebook
+		hr
+	script(src="https://code.jquery.com/jquery-2.1.4.min.js")
+	script(src="../script.js")
